@@ -1,0 +1,24 @@
+2024-09-13 13:56:54,172 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.0
+2024-09-13 13:56:54,175 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.0
+2024-09-13 13:56:54,445 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.1
+2024-09-13 13:56:54,448 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.1
+2024-09-13 13:56:54,630 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.2
+2024-09-13 13:56:54,634 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.2
+2024-09-13 13:56:54,807 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.3
+2024-09-13 13:56:54,835 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.3
+2024-09-13 13:56:55,036 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.4
+2024-09-13 13:56:55,067 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.4
+2024-09-13 13:56:55,278 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.5
+2024-09-13 13:56:55,307 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.5
+2024-09-13 13:56:55,504 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.6
+2024-09-13 13:56:55,534 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.6
+2024-09-13 13:56:55,732 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.7
+2024-09-13 13:56:55,761 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.7
+2024-09-13 13:56:55,951 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.7999999999999999
+2024-09-13 13:56:55,979 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.7999999999999999
+2024-09-13 13:56:56,150 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.8999999999999999
+2024-09-13 13:56:56,181 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.8999999999999999
+2024-09-13 13:56:56,395 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.9999999999999999
+2024-09-13 13:56:56,424 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.9999999999999999
+2024-09-13 13:56:56,797 matplotlib.animation INFO CLAW: 1060 - Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+2024-09-13 13:56:56,798 matplotlib.animation INFO CLAW: 318 - figure size in inches has been adjusted from 6.0 x 4.547038327526132 to 6.0 x 4.54
