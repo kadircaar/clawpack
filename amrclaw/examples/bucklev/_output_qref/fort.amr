@@ -1,0 +1,383 @@
+  max threads set to            1
+
+ amrclaw parameters:
+
+ error tol            -0.10000E+01
+ spatial error tol     0.50000E-01
+ order of integrator             1
+ error checking interval         2
+ buffer zone size                3
+ nghost                          2
+ volume ratio cutoff   0.70000E+00
+ max. refinement level           1
+ user sub. calling times 999999999
+ cfl # (if var. delt)  0.90000E+00
+
+ xupper(upper corner)  0.15000E+01
+ xlower(lower corner) -0.20000E+00
+ nx = no. cells in x dir.      200
+ refinement ratios       
+ refinement ratios:           1
+ no. auxiliary vars.             0
+       var 
+ the subtree is
+ +---------------------------------------------------------------------------+
+ ! grid no:     1                                                            !
+ ! nestlevel=  1, time mult=    0.000000000000000E+00, level ptr =     0     !
+ ! storage locs =          1          0  bndry locs =          0          0  !
+ ! edges of line:                                                     !
+ !           (  -0.2000000,    1.5000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,      199)                !
+ ! hrow=      0.00850000000, hcol=      1.00000000000, ktime=
+ +---------------------------------------------------------------------------+
+
+    1 grids at level     1 go from         0 to      199
+
+   original total mass ...
+time t =  0.00000E+00,  total mass =  0.204000000000000E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.118E+02
+*** WARNING *** Courant number  =  0.1176D+02  is larger than input cfl_max =   0.1000D+01
+time t =  0.10000E+00,  total mass =  0.304000000000000E+00  diff =  0.1000E+00
+ Courant # of grid   1 on level  1 is   0.539E-01
+time t =  0.10765E+00,  total mass =  0.311650000000000E+00  diff =  0.1077E+00
+ Courant # of grid   1 on level  1 is   0.147E+02
+*** WARNING *** Courant number  =  0.1469D+02  is larger than input cfl_max =   0.1000D+01
+time t =  0.20000E+00,  total mass =  0.404000000000000E+00  diff =  0.2000E+00
+ Courant # of grid   1 on level  1 is   0.511E-01
+time t =  0.20566E+00,  total mass =  0.409659103829914E+00  diff =  0.2057E+00
+ Courant # of grid   1 on level  1 is   0.145E+02
+*** WARNING *** Courant number  =  0.1452D+02  is larger than input cfl_max =   0.1000D+01
+time t =  0.30000E+00,  total mass =  0.504000000000000E+00  diff =  0.3000E+00
+ Courant # of grid   1 on level  1 is   0.729E-01
+time t =  0.30585E+00,  total mass =  0.509847346780844E+00  diff =  0.3058E+00
+ Courant # of grid   1 on level  1 is   0.114E+02
+*** WARNING *** Courant number  =  0.1136D+02  is larger than input cfl_max =   0.1000D+01
+time t =  0.37808E+00,  total mass =  0.582077867758093E+00  diff =  0.3781E+00
+ Courant # of grid   1 on level  1 is   0.105E+00
+time t =  0.38380E+00,  total mass =  0.587801722162934E+00  diff =  0.3838E+00
+ Courant # of grid   1 on level  1 is   0.254E+01
+*** WARNING *** Courant number  =  0.2545D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.40000E+00,  total mass =  0.604000000000000E+00  diff =  0.4000E+00
+ Courant # of grid   1 on level  1 is   0.515E+00
+time t =  0.40573E+00,  total mass =  0.609728648179367E+00  diff =  0.4057E+00
+ Courant # of grid   1 on level  1 is   0.158E+01
+*** WARNING *** Courant number  =  0.1577D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.41574E+00,  total mass =  0.619740475860353E+00  diff =  0.4157E+00
+ Courant # of grid   1 on level  1 is   0.647E+00
+time t =  0.42146E+00,  total mass =  0.625455011181126E+00  diff =  0.4215E+00
+ Courant # of grid   1 on level  1 is   0.124E+01
+*** WARNING *** Courant number  =  0.1243D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.42940E+00,  total mass =  0.633401635519085E+00  diff =  0.4294E+00
+ Courant # of grid   1 on level  1 is   0.102E+01
+*** WARNING *** Courant number  =  0.1020D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.43515E+00,  total mass =  0.639154338342727E+00  diff =  0.4352E+00
+ Courant # of grid   1 on level  1 is   0.924E+00
+time t =  0.44023E+00,  total mass =  0.644231500065963E+00  diff =  0.4402E+00
+ Courant # of grid   1 on level  1 is   0.899E+00
+time t =  0.44518E+00,  total mass =  0.649177539288434E+00  diff =  0.4452E+00
+ Courant # of grid   1 on level  1 is   0.915E+00
+time t =  0.45013E+00,  total mass =  0.654127305446221E+00  diff =  0.4501E+00
+ Courant # of grid   1 on level  1 is   0.101E+01
+*** WARNING *** Courant number  =  0.1012D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.45500E+00,  total mass =  0.658995603488856E+00  diff =  0.4550E+00
+ Courant # of grid   1 on level  1 is   0.837E+00
+time t =  0.45933E+00,  total mass =  0.663325337366442E+00  diff =  0.4593E+00
+ Courant # of grid   1 on level  1 is   0.845E+00
+time t =  0.46398E+00,  total mass =  0.667978753959435E+00  diff =  0.4640E+00
+ Courant # of grid   1 on level  1 is   0.933E+00
+time t =  0.46893E+00,  total mass =  0.672934067225725E+00  diff =  0.4689E+00
+ Courant # of grid   1 on level  1 is   0.102E+01
+*** WARNING *** Courant number  =  0.1015D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.47371E+00,  total mass =  0.677713687209907E+00  diff =  0.4737E+00
+ Courant # of grid   1 on level  1 is   0.860E+00
+time t =  0.47795E+00,  total mass =  0.681950706326888E+00  diff =  0.4780E+00
+ Courant # of grid   1 on level  1 is   0.804E+00
+time t =  0.48238E+00,  total mass =  0.686382612561138E+00  diff =  0.4824E+00
+ Courant # of grid   1 on level  1 is   0.976E+00
+time t =  0.48734E+00,  total mass =  0.691343056691726E+00  diff =  0.4873E+00
+ Courant # of grid   1 on level  1 is   0.988E+00
+time t =  0.49192E+00,  total mass =  0.695919396714311E+00  diff =  0.4919E+00
+ Courant # of grid   1 on level  1 is   0.843E+00
+time t =  0.49609E+00,  total mass =  0.700089973402359E+00  diff =  0.4961E+00
+ Courant # of grid   1 on level  1 is   0.709E+00
+time t =  0.50000E+00,  total mass =  0.704000000000000E+00  diff =  0.5000E+00
+ Courant # of grid   1 on level  1 is   0.108E+01
+*** WARNING *** Courant number  =  0.1076D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.50496E+00,  total mass =  0.708963529591483E+00  diff =  0.5050E+00
+ Courant # of grid   1 on level  1 is   0.883E+00
+time t =  0.50911E+00,  total mass =  0.713114071136560E+00  diff =  0.5091E+00
+ Courant # of grid   1 on level  1 is   0.769E+00
+time t =  0.51335E+00,  total mass =  0.717346675799550E+00  diff =  0.5133E+00
+ Courant # of grid   1 on level  1 is   0.988E+00
+time t =  0.51830E+00,  total mass =  0.722303531007831E+00  diff =  0.5183E+00
+ Courant # of grid   1 on level  1 is   0.984E+00
+time t =  0.52282E+00,  total mass =  0.726816836892858E+00  diff =  0.5228E+00
+ Courant # of grid   1 on level  1 is   0.849E+00
+time t =  0.52694E+00,  total mass =  0.730943722725486E+00  diff =  0.5269E+00
+ Courant # of grid   1 on level  1 is   0.793E+00
+time t =  0.53132E+00,  total mass =  0.735320850744559E+00  diff =  0.5313E+00
+ Courant # of grid   1 on level  1 is   0.105E+01
+*** WARNING *** Courant number  =  0.1055D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.53629E+00,  total mass =  0.740290429362016E+00  diff =  0.5363E+00
+ Courant # of grid   1 on level  1 is   0.926E+00
+time t =  0.54053E+00,  total mass =  0.744530330763945E+00  diff =  0.5405E+00
+ Courant # of grid   1 on level  1 is   0.791E+00
+time t =  0.54465E+00,  total mass =  0.748650607203116E+00  diff =  0.5447E+00
+ Courant # of grid   1 on level  1 is   0.909E+00
+time t =  0.54934E+00,  total mass =  0.753339199101126E+00  diff =  0.5493E+00
+ Courant # of grid   1 on level  1 is   0.102E+01
+*** WARNING *** Courant number  =  0.1021D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.55398E+00,  total mass =  0.757983859156550E+00  diff =  0.5540E+00
+ Courant # of grid   1 on level  1 is   0.865E+00
+time t =  0.55808E+00,  total mass =  0.762077595138268E+00  diff =  0.5581E+00
+ Courant # of grid   1 on level  1 is   0.771E+00
+time t =  0.56234E+00,  total mass =  0.766338498418882E+00  diff =  0.5623E+00
+ Courant # of grid   1 on level  1 is   0.106E+01
+*** WARNING *** Courant number  =  0.1056D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.56731E+00,  total mass =  0.771312426531717E+00  diff =  0.5673E+00
+ Courant # of grid   1 on level  1 is   0.933E+00
+time t =  0.57155E+00,  total mass =  0.775553319204516E+00  diff =  0.5716E+00
+ Courant # of grid   1 on level  1 is   0.797E+00
+time t =  0.57564E+00,  total mass =  0.779642310940647E+00  diff =  0.5756E+00
+ Courant # of grid   1 on level  1 is   0.899E+00
+time t =  0.58026E+00,  total mass =  0.784260401185962E+00  diff =  0.5803E+00
+ Courant # of grid   1 on level  1 is   0.102E+01
+*** WARNING *** Courant number  =  0.1023D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.58488E+00,  total mass =  0.788884631077165E+00  diff =  0.5849E+00
+ Courant # of grid   1 on level  1 is   0.863E+00
+time t =  0.58895E+00,  total mass =  0.792954550204052E+00  diff =  0.5890E+00
+ Courant # of grid   1 on level  1 is   0.768E+00
+time t =  0.59320E+00,  total mass =  0.797201302750606E+00  diff =  0.5932E+00
+ Courant # of grid   1 on level  1 is   0.107E+01
+*** WARNING *** Courant number  =  0.1069D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.59818E+00,  total mass =  0.802179524706515E+00  diff =  0.5982E+00
+ Courant # of grid   1 on level  1 is   0.401E+00
+time t =  0.60000E+00,  total mass =  0.804000000000000E+00  diff =  0.6000E+00
+ Courant # of grid   1 on level  1 is   0.863E+00
+time t =  0.60408E+00,  total mass =  0.808083835181456E+00  diff =  0.6041E+00
+ Courant # of grid   1 on level  1 is   0.954E+00
+time t =  0.60834E+00,  total mass =  0.812343194329288E+00  diff =  0.6083E+00
+ Courant # of grid   1 on level  1 is   0.774E+00
+time t =  0.61236E+00,  total mass =  0.816360620040436E+00  diff =  0.6124E+00
+ Courant # of grid   1 on level  1 is   0.959E+00
+time t =  0.61703E+00,  total mass =  0.821030223332680E+00  diff =  0.6170E+00
+ Courant # of grid   1 on level  1 is   0.982E+00
+time t =  0.62141E+00,  total mass =  0.825411735042496E+00  diff =  0.6214E+00
+ Courant # of grid   1 on level  1 is   0.823E+00
+time t =  0.62543E+00,  total mass =  0.829425792029234E+00  diff =  0.6254E+00
+ Courant # of grid   1 on level  1 is   0.847E+00
+time t =  0.62981E+00,  total mass =  0.833814353001128E+00  diff =  0.6298E+00
+ Courant # of grid   1 on level  1 is   0.104E+01
+*** WARNING *** Courant number  =  0.1038D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.63448E+00,  total mass =  0.838480037954983E+00  diff =  0.6345E+00
+ Courant # of grid   1 on level  1 is   0.872E+00
+time t =  0.63852E+00,  total mass =  0.842524437521829E+00  diff =  0.6385E+00
+ Courant # of grid   1 on level  1 is   0.760E+00
+time t =  0.64270E+00,  total mass =  0.846696901699981E+00  diff =  0.6427E+00
+ Courant # of grid   1 on level  1 is   0.107E+01
+*** WARNING *** Courant number  =  0.1069D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.64764E+00,  total mass =  0.851639650269712E+00  diff =  0.6476E+00
+ Courant # of grid   1 on level  1 is   0.923E+00
+time t =  0.65180E+00,  total mass =  0.855801003426985E+00  diff =  0.6518E+00
+ Courant # of grid   1 on level  1 is   0.784E+00
+time t =  0.65586E+00,  total mass =  0.859859050401366E+00  diff =  0.6559E+00
+ Courant # of grid   1 on level  1 is   0.944E+00
+time t =  0.66052E+00,  total mass =  0.864516162476566E+00  diff =  0.6605E+00
+ Courant # of grid   1 on level  1 is   0.994E+00
+time t =  0.66496E+00,  total mass =  0.868955130650864E+00  diff =  0.6650E+00
+ Courant # of grid   1 on level  1 is   0.835E+00
+time t =  0.66897E+00,  total mass =  0.872973960441916E+00  diff =  0.6690E+00
+ Courant # of grid   1 on level  1 is   0.825E+00
+time t =  0.67330E+00,  total mass =  0.877303283301385E+00  diff =  0.6733E+00
+ Courant # of grid   1 on level  1 is   0.105E+01
+*** WARNING *** Courant number  =  0.1047D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.67803E+00,  total mass =  0.882026700141020E+00  diff =  0.6780E+00
+ Courant # of grid   1 on level  1 is   0.884E+00
+time t =  0.68209E+00,  total mass =  0.886085980959359E+00  diff =  0.6821E+00
+ Courant # of grid   1 on level  1 is   0.748E+00
+time t =  0.68622E+00,  total mass =  0.890218074436746E+00  diff =  0.6862E+00
+ Courant # of grid   1 on level  1 is   0.107E+01
+*** WARNING *** Courant number  =  0.1067D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.69119E+00,  total mass =  0.895189938921455E+00  diff =  0.6912E+00
+ Courant # of grid   1 on level  1 is   0.934E+00
+time t =  0.69538E+00,  total mass =  0.899384561213900E+00  diff =  0.6954E+00
+ Courant # of grid   1 on level  1 is   0.797E+00
+time t =  0.69943E+00,  total mass =  0.903428545197033E+00  diff =  0.6994E+00
+ Courant # of grid   1 on level  1 is   0.114E+00
+time t =  0.70000E+00,  total mass =  0.904000000000000E+00  diff =  0.7000E+00
+ Courant # of grid   1 on level  1 is   0.884E+00
+time t =  0.70450E+00,  total mass =  0.908497264687443E+00  diff =  0.7045E+00
+ Courant # of grid   1 on level  1 is   0.101E+01
+*** WARNING *** Courant number  =  0.1006D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.70908E+00,  total mass =  0.913075903099223E+00  diff =  0.7091E+00
+ Courant # of grid   1 on level  1 is   0.902E+00
+time t =  0.71317E+00,  total mass =  0.917171634721580E+00  diff =  0.7132E+00
+ Courant # of grid   1 on level  1 is   0.750E+00
+time t =  0.71726E+00,  total mass =  0.921258007187407E+00  diff =  0.7173E+00
+ Courant # of grid   1 on level  1 is   0.105E+01
+*** WARNING *** Courant number  =  0.1051D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.72216E+00,  total mass =  0.926161071902008E+00  diff =  0.7222E+00
+ Courant # of grid   1 on level  1 is   0.938E+00
+time t =  0.72636E+00,  total mass =  0.930358076146128E+00  diff =  0.7264E+00
+ Courant # of grid   1 on level  1 is   0.796E+00
+time t =  0.73038E+00,  total mass =  0.934384370738569E+00  diff =  0.7304E+00
+ Courant # of grid   1 on level  1 is   0.919E+00
+time t =  0.73494E+00,  total mass =  0.938939556423659E+00  diff =  0.7349E+00
+ Courant # of grid   1 on level  1 is   0.100E+01
+*** WARNING *** Courant number  =  0.1003D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.73940E+00,  total mass =  0.943402388692063E+00  diff =  0.7394E+00
+ Courant # of grid   1 on level  1 is   0.840E+00
+time t =  0.74341E+00,  total mass =  0.947405549732359E+00  diff =  0.7434E+00
+ Courant # of grid   1 on level  1 is   0.822E+00
+time t =  0.74769E+00,  total mass =  0.951694850532749E+00  diff =  0.7477E+00
+ Courant # of grid   1 on level  1 is   0.104E+01
+*** WARNING *** Courant number  =  0.1045D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.75239E+00,  total mass =  0.956388791087166E+00  diff =  0.7524E+00
+ Courant # of grid   1 on level  1 is   0.883E+00
+time t =  0.75643E+00,  total mass =  0.960433330812904E+00  diff =  0.7564E+00
+ Courant # of grid   1 on level  1 is   0.756E+00
+time t =  0.76056E+00,  total mass =  0.964556401154251E+00  diff =  0.7606E+00
+ Courant # of grid   1 on level  1 is   0.106E+01
+*** WARNING *** Courant number  =  0.1063D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.76547E+00,  total mass =  0.969466513497895E+00  diff =  0.7655E+00
+ Courant # of grid   1 on level  1 is   0.927E+00
+time t =  0.76962E+00,  total mass =  0.973624157729031E+00  diff =  0.7696E+00
+ Courant # of grid   1 on level  1 is   0.785E+00
+time t =  0.77366E+00,  total mass =  0.977658693678100E+00  diff =  0.7737E+00
+ Courant # of grid   1 on level  1 is   0.946E+00
+time t =  0.77828E+00,  total mass =  0.982282961616292E+00  diff =  0.7783E+00
+ Courant # of grid   1 on level  1 is   0.990E+00
+time t =  0.78268E+00,  total mass =  0.986681941404632E+00  diff =  0.7827E+00
+ Courant # of grid   1 on level  1 is   0.830E+00
+time t =  0.78668E+00,  total mass =  0.990680567366400E+00  diff =  0.7867E+00
+ Courant # of grid   1 on level  1 is   0.844E+00
+time t =  0.79102E+00,  total mass =  0.995019004805856E+00  diff =  0.7910E+00
+ Courant # of grid   1 on level  1 is   0.104E+01
+*** WARNING *** Courant number  =  0.1035D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.79565E+00,  total mass =  0.999645160901895E+00  diff =  0.7956E+00
+ Courant # of grid   1 on level  1 is   0.871E+00
+time t =  0.79967E+00,  total mass =  0.100366771067640E+01  diff =  0.7997E+00
+ Courant # of grid   1 on level  1 is   0.619E-01
+time t =  0.80000E+00,  total mass =  0.100400000000000E+01  diff =  0.8000E+00
+ Courant # of grid   1 on level  1 is   0.897E+00
+time t =  0.80483E+00,  total mass =  0.100882773419719E+01  diff =  0.8048E+00
+ Courant # of grid   1 on level  1 is   0.967E+00
+time t =  0.80967E+00,  total mass =  0.101366911698248E+01  diff =  0.8097E+00
+ Courant # of grid   1 on level  1 is   0.100E+01
+*** WARNING *** Courant number  =  0.1002D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.81417E+00,  total mass =  0.101817356469990E+01  diff =  0.8142E+00
+ Courant # of grid   1 on level  1 is   0.870E+00
+time t =  0.81822E+00,  total mass =  0.102221762150824E+01  diff =  0.8182E+00
+ Courant # of grid   1 on level  1 is   0.783E+00
+time t =  0.82240E+00,  total mass =  0.102640320070443E+01  diff =  0.8224E+00
+ Courant # of grid   1 on level  1 is   0.106E+01
+*** WARNING *** Courant number  =  0.1057D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.82721E+00,  total mass =  0.103121466323063E+01  diff =  0.8272E+00
+ Courant # of grid   1 on level  1 is   0.908E+00
+time t =  0.83131E+00,  total mass =  0.103531025757682E+01  diff =  0.8313E+00
+ Courant # of grid   1 on level  1 is   0.763E+00
+time t =  0.83537E+00,  total mass =  0.103936881337416E+01  diff =  0.8354E+00
+ Courant # of grid   1 on level  1 is   0.101E+01
+*** WARNING *** Courant number  =  0.1011D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.84015E+00,  total mass =  0.104415436469199E+01  diff =  0.8402E+00
+ Courant # of grid   1 on level  1 is   0.958E+00
+time t =  0.84442E+00,  total mass =  0.104841658959571E+01  diff =  0.8444E+00
+ Courant # of grid   1 on level  1 is   0.807E+00
+time t =  0.84842E+00,  total mass =  0.105241992843033E+01  diff =  0.8484E+00
+ Courant # of grid   1 on level  1 is   0.895E+00
+time t =  0.85289E+00,  total mass =  0.105688661542451E+01  diff =  0.8529E+00
+ Courant # of grid   1 on level  1 is   0.101E+01
+*** WARNING *** Courant number  =  0.1012D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.85738E+00,  total mass =  0.106138031159250E+01  diff =  0.8574E+00
+ Courant # of grid   1 on level  1 is   0.847E+00
+time t =  0.86138E+00,  total mass =  0.106537548351702E+01  diff =  0.8614E+00
+ Courant # of grid   1 on level  1 is   0.816E+00
+time t =  0.86562E+00,  total mass =  0.106962256440540E+01  diff =  0.8656E+00
+ Courant # of grid   1 on level  1 is   0.104E+01
+*** WARNING *** Courant number  =  0.1044D+01  is larger than input cfl_max =   0.1000D+01
+time t =  0.87031E+00,  total mass =  0.107430838551772E+01  diff =  0.8703E+00
+ Courant # of grid   1 on level  1 is   0.885E+00
+time t =  0.87435E+00,  total mass =  0.107834747510108E+01  diff =  0.8743E+00
+ Courant # of grid   1 on level  1 is   0.844E+00
+time t =  0.87845E+00,  total mass =  0.108245422671788E+01  diff =  0.8785E+00
+ Courant # of grid   1 on level  1 is   0.952E+00
+time t =  0.88283E+00,  total mass =  0.108683380766787E+01  diff =  0.8828E+00
+ Courant # of grid   1 on level  1 is   0.927E+00
+time t =  0.88698E+00,  total mass =  0.109097514252601E+01  diff =  0.8870E+00
+ Courant # of grid   1 on level  1 is   0.827E+00
+time t =  0.89100E+00,  total mass =  0.109499716831013E+01  diff =  0.8910E+00
+ Courant # of grid   1 on level  1 is   0.944E+00
+time t =  0.89537E+00,  total mass =  0.109937443035932E+01  diff =  0.8954E+00
+ Courant # of grid   1 on level  1 is   0.942E+00
+time t =  0.89955E+00,  total mass =  0.110354625129855E+01  diff =  0.8995E+00
+ Courant # of grid   1 on level  1 is   0.933E-01
+time t =  0.90000E+00,  total mass =  0.110400000000000E+01  diff =  0.9000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.90438E+00,  total mass =  0.110837635712743E+01  diff =  0.9044E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.90875E+00,  total mass =  0.111275268222283E+01  diff =  0.9088E+00
+ Courant # of grid   1 on level  1 is   0.989E+00
+time t =  0.91313E+00,  total mass =  0.111712869862195E+01  diff =  0.9131E+00
+ Courant # of grid   1 on level  1 is   0.853E+00
+time t =  0.91711E+00,  total mass =  0.112111021499001E+01  diff =  0.9171E+00
+ Courant # of grid   1 on level  1 is   0.864E+00
+time t =  0.92131E+00,  total mass =  0.112531207425080E+01  diff =  0.9213E+00
+ Courant # of grid   1 on level  1 is   0.984E+00
+time t =  0.92569E+00,  total mass =  0.112968720710232E+01  diff =  0.9257E+00
+ Courant # of grid   1 on level  1 is   0.869E+00
+time t =  0.92969E+00,  total mass =  0.113368685498781E+01  diff =  0.9297E+00
+ Courant # of grid   1 on level  1 is   0.852E+00
+time t =  0.93383E+00,  total mass =  0.113782713698326E+01  diff =  0.9338E+00
+ Courant # of grid   1 on level  1 is   0.980E+00
+time t =  0.93820E+00,  total mass =  0.114220141763183E+01  diff =  0.9382E+00
+ Courant # of grid   1 on level  1 is   0.882E+00
+time t =  0.94222E+00,  total mass =  0.114621802121176E+01  diff =  0.9422E+00
+ Courant # of grid   1 on level  1 is   0.844E+00
+time t =  0.94632E+00,  total mass =  0.115031870465171E+01  diff =  0.9463E+00
+ Courant # of grid   1 on level  1 is   0.976E+00
+time t =  0.95069E+00,  total mass =  0.115469215568394E+01  diff =  0.9507E+00
+ Courant # of grid   1 on level  1 is   0.891E+00
+time t =  0.95472E+00,  total mass =  0.115872381708353E+01  diff =  0.9547E+00
+ Courant # of grid   1 on level  1 is   0.838E+00
+time t =  0.95880E+00,  total mass =  0.116279674488093E+01  diff =  0.9588E+00
+ Courant # of grid   1 on level  1 is   0.973E+00
+time t =  0.96317E+00,  total mass =  0.116716938673945E+01  diff =  0.9632E+00
+ Courant # of grid   1 on level  1 is   0.898E+00
+time t =  0.96721E+00,  total mass =  0.117121466892699E+01  diff =  0.9672E+00
+ Courant # of grid   1 on level  1 is   0.834E+00
+time t =  0.97127E+00,  total mass =  0.117526679063976E+01  diff =  0.9713E+00
+ Courant # of grid   1 on level  1 is   0.970E+00
+time t =  0.97564E+00,  total mass =  0.117963864238042E+01  diff =  0.9756E+00
+ Courant # of grid   1 on level  1 is   0.905E+00
+time t =  0.97970E+00,  total mass =  0.118369655339499E+01  diff =  0.9797E+00
+ Courant # of grid   1 on level  1 is   0.831E+00
+time t =  0.98373E+00,  total mass =  0.118773220653392E+01  diff =  0.9837E+00
+ Courant # of grid   1 on level  1 is   0.967E+00
+time t =  0.98810E+00,  total mass =  0.119210328618973E+01  diff =  0.9881E+00
+ Courant # of grid   1 on level  1 is   0.911E+00
+time t =  0.99217E+00,  total mass =  0.119617321220664E+01  diff =  0.9922E+00
+ Courant # of grid   1 on level  1 is   0.828E+00
+time t =  0.99620E+00,  total mass =  0.120019524091390E+01  diff =  0.9962E+00
+ Courant # of grid   1 on level  1 is   0.839E+00
+time t =  0.10000E+01,  total mass =  0.120400000000000E+01  diff =  0.1000E+01
+
+
+for level   1 average num. grids =       1.00 over          1 regridding steps
+for level   1  current num. grids =       1
+
+
+alloc array statistics:
+    current alloc usage =          204
+    maximum alloc usage =          204
+required alloc memsize >=          205
+
+number of cells advanced for time integration =         29400.000000
+   # cells advanced on level    1 =             29400.00
+number of cells advanced for error estimation =             0.000000
+
+ percentage of cells advanced in time  =     100.00
+ maximum Courant number seen =      14.69
+
+
+ ------  end of AMRCLAW integration --------  

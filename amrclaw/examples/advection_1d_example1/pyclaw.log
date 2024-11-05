@@ -1,0 +1,23 @@
+2024-11-03 19:08:25,619 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.0
+2024-11-03 19:08:26,640 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.2
+2024-11-03 19:08:27,628 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.4
+2024-11-03 19:08:28,618 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.6
+2024-11-03 19:08:29,643 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.8
+2024-11-03 19:08:30,685 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=1.0
+2024-11-03 19:08:31,668 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=1.2
+2024-11-03 19:08:32,652 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=1.4
+2024-11-03 19:08:33,629 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=1.6
+2024-11-03 19:08:34,615 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=1.8
+2024-11-03 19:08:35,599 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=2.0
+2024-11-03 19:08:36,637 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=2.2
+2024-11-03 19:08:37,631 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=2.4
+2024-11-03 19:08:38,612 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=2.6
+2024-11-03 19:08:39,598 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=2.8
+2024-11-03 19:08:40,585 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=3.0
+2024-11-03 19:08:41,654 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=3.2
+2024-11-03 19:08:42,668 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=3.4
+2024-11-03 19:08:43,641 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=3.6
+2024-11-03 19:08:44,626 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=3.8
+2024-11-03 19:08:45,601 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=4.0
+2024-11-03 19:08:47,102 matplotlib.animation INFO CLAW: 1060 - Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+2024-11-03 19:08:50,786 matplotlib.animation INFO CLAW: 1060 - Animation.save using <class 'matplotlib.animation.HTMLWriter'>

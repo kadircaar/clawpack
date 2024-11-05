@@ -1,0 +1,13 @@
+2024-11-03 20:02:47,818 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.0
+2024-11-03 20:02:48,661 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.05
+2024-11-03 20:02:49,463 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.1
+2024-11-03 20:02:50,261 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.15
+2024-11-03 20:02:51,065 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.2
+2024-11-03 20:02:51,932 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.25
+2024-11-03 20:02:52,866 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.3
+2024-11-03 20:02:53,804 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.35
+2024-11-03 20:02:54,704 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.4
+2024-11-03 20:02:55,613 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.45
+2024-11-03 20:02:56,513 pyclaw.fileio INFO CLAW: 368 - Read in solution for time t=0.5
+2024-11-03 20:02:57,856 matplotlib.animation INFO CLAW: 1060 - Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+2024-11-03 20:02:59,717 matplotlib.animation INFO CLAW: 1060 - Animation.save using <class 'matplotlib.animation.HTMLWriter'>

@@ -1,0 +1,401 @@
+  max threads set to            1
+
+ amrclaw parameters:
+
+ error tol            -0.10000E+01
+ spatial error tol     0.20000E+00
+ order of integrator             1
+ error checking interval         2
+ buffer zone size                3
+ nghost                          2
+ volume ratio cutoff   0.70000E+00
+ max. refinement level           3
+ user sub. calling times 999999999
+ cfl # (if var. delt)  0.90000E+00
+
+ xupper(upper corner)  0.10000E+01
+ xlower(lower corner)  0.00000E+00
+ nx = no. cells in x dir.       60
+ refinement ratios       
+ refinement ratios:           2    4    0
+ no. auxiliary vars.             0
+       var 
+ the subtree is
+ +---------------------------------------------------------------------------+
+ ! grid no:     1                                                            !
+ ! nestlevel=  1, time mult=    0.000000000000000E+00, level ptr =     0     !
+ ! storage locs =         65          1  bndry locs =        213          0  !
+ ! edges of line:                                                     !
+ !           (   0.0000000,    1.0000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,       59)                !
+ ! hrow=      0.01666666667, hcol=      0.00100000000, ktime=
+ +---------------------------------------------------------------------------+
+
+    1 grids at level     1 go from         0 to       59
+
+ +---------------------------------------------------------------------------+
+ ! grid no:     2                                                            !
+ ! nestlevel=  2, time mult=    0.000000000000000E+00, level ptr =     0     !
+ ! storage locs =        169        129  bndry locs =          0        209  !
+ ! edges of line:                                                     !
+ !           (   0.1500000,    0.4500000)        !
+ ! integer index space :                                                     !
+ !                   (      18,       53)                !
+ ! hrow=      0.00833333333, hcol=      0.00050000000, ktime=
+ +---------------------------------------------------------------------------+
+
+    1 grids at level     2 go from        18 to       53
+
+   original total mass ...
+time t =  0.00000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.600E-01
+ Courant # of grid   2 on level  2 is   0.600E-01
+ Courant # of grid   2 on level  2 is   0.600E-01
+time t =  0.10000E-02,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.16000E-01,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.31000E-01,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.46000E-01,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.61000E-01,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.76000E-01,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.91000E-01,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+ Courant # of grid   1 on level  1 is   0.540E+00
+ Courant # of grid   3 on level  2 is   0.540E+00
+ Courant # of grid   3 on level  2 is   0.540E+00
+time t =  0.10000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.11500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.13000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.14500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.16000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.17500E+00,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.19000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+time t =  0.20000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.21500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.23000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.24500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.26000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.27500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.29000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+time t =  0.30000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.31500E+00,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.33000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.34500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.36000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.37500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.39000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+time t =  0.40000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.41500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.43000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.44500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.46000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.47500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.49000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+time t =  0.50000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.51500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.53000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.54500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.56000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.57500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.59000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   5 on level  2 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   5 on level  2 is   0.600E+00
+time t =  0.60000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+time t =  0.61500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.63000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+time t =  0.64500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.66000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.67500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.69000E+00,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   4 on level  2 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   4 on level  2 is   0.600E+00
+time t =  0.70000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.71500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.73000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.74500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.76000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.77500E+00,  total mass =  0.125320122095946E+00  diff = -0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.79000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   4 on level  2 is   0.600E+00
+ Courant # of grid   2 on level  2 is   0.600E+00
+ Courant # of grid   4 on level  2 is   0.600E+00
+time t =  0.80000E+00,  total mass =  0.125320122095946E+00  diff = -0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.81500E+00,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.83000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.84500E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.86000E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.87500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.89000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+time t =  0.90000E+00,  total mass =  0.125320122095946E+00  diff = -0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.91500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.93000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.94500E+00,  total mass =  0.125320122095946E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  2 is   0.900E+00
+time t =  0.96000E+00,  total mass =  0.125320122095946E+00  diff =  0.5551E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.97500E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+time t =  0.99000E+00,  total mass =  0.125320122095946E+00  diff =  0.2776E-16
+ Courant # of grid   1 on level  1 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+ Courant # of grid   3 on level  2 is   0.600E+00
+time t =  0.10000E+01,  total mass =  0.125320122095946E+00  diff =  0.8327E-16
+
+
+for level   1 average num. grids =       1.00 over          1 regridding steps
+for level   1  current num. grids =       1
+for level   2 average num. grids =       1.28 over         36 regridding steps
+for level   2  current num. grids =       1
+for level   3 average num. grids =       0.00 over         71 regridding steps
+for level   3  current num. grids =       0
+
+
+alloc array statistics:
+    current alloc usage =          216
+    maximum alloc usage =          350
+required alloc memsize >=          351
+
+number of cells advanced for time integration =          9296.000000
+   # cells advanced on level    1 =              4260.00
+   # cells advanced on level    2 =              5036.00
+   # cells advanced on level    3 =                 0.00
+number of cells advanced for error estimation =             0.000000
+
+ percentage of cells advanced in time  =     100.00
+ maximum Courant number seen =       0.90
+
+
+ ------  end of AMRCLAW integration --------  

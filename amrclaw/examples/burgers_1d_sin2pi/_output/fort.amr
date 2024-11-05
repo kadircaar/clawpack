@@ -1,0 +1,656 @@
+  max threads set to            1
+
+ amrclaw parameters:
+
+ error tol            -0.10000E+01
+ spatial error tol     0.70000E+00
+ order of integrator             1
+ error checking interval         2
+ buffer zone size                3
+ nghost                          2
+ volume ratio cutoff   0.70000E+00
+ max. refinement level           3
+ user sub. calling times 999999999
+ cfl # (if var. delt)  0.90000E+00
+
+ xupper(upper corner)  0.10000E+01
+ xlower(lower corner)  0.00000E+00
+ nx = no. cells in x dir.       60
+ refinement ratios       
+ refinement ratios:           2    4    0
+ no. auxiliary vars.             0
+       var 
+ the subtree is
+ +---------------------------------------------------------------------------+
+ ! grid no:     1                                                            !
+ ! nestlevel=  1, time mult=    0.000000000000000E+00, level ptr =     0     !
+ ! storage locs =         65          1  bndry locs =          0          0  !
+ ! edges of line:                                                     !
+ !           (   0.0000000,    1.0000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,       59)                !
+ ! hrow=      0.01666666667, hcol=      0.00100000000, ktime=
+ +---------------------------------------------------------------------------+
+
+    1 grids at level     1 go from         0 to       59
+
+   original total mass ...
+time t =  0.00000E+00,  total mass =  0.500000000000000E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.899E-01
+time t =  0.10000E-02,  total mass =  0.500000000000000E+00  diff = -0.2220E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.11009E-01,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.21022E-01,  total mass =  0.500000000000000E+00  diff = -0.2220E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.31037E-01,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.41057E-01,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.802E+00
+time t =  0.50000E-01,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.899E+00
+time t =  0.60030E-01,  total mass =  0.500000000000000E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.70070E-01,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.80111E-01,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.90152E-01,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.882E+00
+time t =  0.10000E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+time t =  0.11005E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.899E+00
+time t =  0.12010E+00,  total mass =  0.500000000000000E+00  diff = -0.5551E-15
+ Courant # of grid   1 on level  1 is   0.899E+00
+time t =  0.13016E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.899E+00
+ Courant # of grid   2 on level  2 is   0.769E+00
+ Courant # of grid   2 on level  2 is   0.797E+00
+time t =  0.14022E+00,  total mass =  0.500000000000000E+00  diff = -0.4996E-15
+ Courant # of grid   1 on level  1 is   0.874E+00
+ Courant # of grid   2 on level  2 is   0.800E+00
+ Courant # of grid   2 on level  2 is   0.820E+00
+time t =  0.15000E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.708E+00
+ Courant # of grid   3 on level  3 is   0.720E+00
+ Courant # of grid   3 on level  3 is   0.731E+00
+ Courant # of grid   3 on level  3 is   0.742E+00
+ Courant # of grid   4 on level  2 is   0.894E+00
+ Courant # of grid   3 on level  3 is   0.754E+00
+ Courant # of grid   3 on level  3 is   0.766E+00
+ Courant # of grid   3 on level  3 is   0.775E+00
+ Courant # of grid   3 on level  3 is   0.784E+00
+time t =  0.16007E+00,  total mass =  0.500000000000000E+00  diff = -0.6106E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         264 to          295) at level    3
+          at level    2 projected coords ilo:hi:(        65        74)
+ enlarged (by 1) fine grid from ilo:hi:         263         296
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           65          74
+marking nested region from:         65        74
+1111111111
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.898E+00
+ Courant # of grid   2 on level  3 is   0.795E+00
+ Courant # of grid   2 on level  3 is   0.804E+00
+ Courant # of grid   2 on level  3 is   0.811E+00
+ Courant # of grid   2 on level  3 is   0.817E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.825E+00
+ Courant # of grid   2 on level  3 is   0.833E+00
+ Courant # of grid   2 on level  3 is   0.839E+00
+ Courant # of grid   2 on level  3 is   0.845E+00
+time t =  0.17015E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.852E+00
+ Courant # of grid   3 on level  3 is   0.857E+00
+ Courant # of grid   3 on level  3 is   0.861E+00
+ Courant # of grid   3 on level  3 is   0.865E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.870E+00
+ Courant # of grid   3 on level  3 is   0.874E+00
+ Courant # of grid   3 on level  3 is   0.877E+00
+ Courant # of grid   3 on level  3 is   0.879E+00
+time t =  0.18022E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         268 to          299) at level    3
+          at level    2 projected coords ilo:hi:(        66        75)
+ enlarged (by 1) fine grid from ilo:hi:         267         300
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           66          75
+marking nested region from:         66        75
+1111111111
+ Courant # of grid   1 on level  1 is   0.899E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.867E+00
+ Courant # of grid   2 on level  3 is   0.871E+00
+ Courant # of grid   2 on level  3 is   0.874E+00
+ Courant # of grid   2 on level  3 is   0.877E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.881E+00
+ Courant # of grid   2 on level  3 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+time t =  0.19030E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.866E+00
+ Courant # of grid   4 on level  2 is   0.866E+00
+ Courant # of grid   3 on level  3 is   0.856E+00
+ Courant # of grid   3 on level  3 is   0.858E+00
+ Courant # of grid   3 on level  3 is   0.859E+00
+ Courant # of grid   3 on level  3 is   0.860E+00
+ Courant # of grid   4 on level  2 is   0.866E+00
+ Courant # of grid   3 on level  3 is   0.862E+00
+ Courant # of grid   3 on level  3 is   0.863E+00
+ Courant # of grid   3 on level  3 is   0.864E+00
+ Courant # of grid   3 on level  3 is   0.864E+00
+time t =  0.20000E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         272 to          303) at level    3
+          at level    2 projected coords ilo:hi:(        67        76)
+ enlarged (by 1) fine grid from ilo:hi:         271         304
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           67          76
+marking nested region from:         67        76
+1111111111
+ Courant # of grid   1 on level  1 is   0.899E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.894E+00
+ Courant # of grid   2 on level  3 is   0.895E+00
+ Courant # of grid   2 on level  3 is   0.896E+00
+ Courant # of grid   2 on level  3 is   0.897E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.899E+00
+ Courant # of grid   2 on level  3 is   0.899E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+time t =  0.21008E+00,  total mass =  0.500000000000000E+00  diff = -0.5551E-15
+ Courant # of grid   1 on level  1 is   0.899E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+time t =  0.22016E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         276 to          307) at level    3
+          at level    2 projected coords ilo:hi:(        68        77)
+ enlarged (by 1) fine grid from ilo:hi:         275         308
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           68          77
+marking nested region from:         68        77
+1111111111
+ Courant # of grid   1 on level  1 is   0.898E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+ Courant # of grid   2 on level  3 is   0.900E+00
+time t =  0.23024E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.898E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   4 on level  2 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+time t =  0.24031E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         280 to          315) at level    3
+          at level    2 projected coords ilo:hi:(        69        79)
+ enlarged (by 1) fine grid from ilo:hi:         279         316
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           69          79
+marking nested region from:         69        79
+11111111111
+ Courant # of grid   1 on level  1 is   0.863E+00
+ Courant # of grid   4 on level  2 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   4 on level  2 is   0.864E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+ Courant # of grid   2 on level  3 is   0.865E+00
+time t =  0.25000E+00,  total mass =  0.500000000000000E+00  diff =  0.0000E+00
+ Courant # of grid   1 on level  1 is   0.895E+00
+ Courant # of grid   5 on level  2 is   0.898E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   5 on level  2 is   0.898E+00
+ Courant # of grid   3 on level  3 is   0.900E+00
+ Courant # of grid   3 on level  3 is   0.899E+00
+ Courant # of grid   3 on level  3 is   0.899E+00
+ Courant # of grid   3 on level  3 is   0.899E+00
+time t =  0.26008E+00,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         284 to          319) at level    3
+          at level    2 projected coords ilo:hi:(        70        80)
+ enlarged (by 1) fine grid from ilo:hi:         283         320
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           70          80
+marking nested region from:         70        80
+11111111111
+ Courant # of grid   1 on level  1 is   0.887E+00
+ Courant # of grid   5 on level  2 is   0.896E+00
+ Courant # of grid   2 on level  3 is   0.899E+00
+ Courant # of grid   2 on level  3 is   0.899E+00
+ Courant # of grid   2 on level  3 is   0.898E+00
+ Courant # of grid   2 on level  3 is   0.898E+00
+ Courant # of grid   5 on level  2 is   0.893E+00
+ Courant # of grid   2 on level  3 is   0.897E+00
+ Courant # of grid   2 on level  3 is   0.897E+00
+ Courant # of grid   2 on level  3 is   0.897E+00
+ Courant # of grid   2 on level  3 is   0.896E+00
+time t =  0.27016E+00,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+ Courant # of grid   1 on level  1 is   0.889E+00
+ Courant # of grid   4 on level  2 is   0.894E+00
+ Courant # of grid   3 on level  3 is   0.897E+00
+ Courant # of grid   3 on level  3 is   0.897E+00
+ Courant # of grid   3 on level  3 is   0.896E+00
+ Courant # of grid   3 on level  3 is   0.896E+00
+ Courant # of grid   4 on level  2 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.895E+00
+ Courant # of grid   3 on level  3 is   0.894E+00
+ Courant # of grid   3 on level  3 is   0.894E+00
+ Courant # of grid   3 on level  3 is   0.893E+00
+time t =  0.28026E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         292 to          323) at level    3
+          at level    2 projected coords ilo:hi:(        72        81)
+ enlarged (by 1) fine grid from ilo:hi:         291         324
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           72          81
+marking nested region from:         72        81
+1111111111
+ Courant # of grid   1 on level  1 is   0.882E+00
+ Courant # of grid   4 on level  2 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.895E+00
+ Courant # of grid   2 on level  3 is   0.894E+00
+ Courant # of grid   2 on level  3 is   0.894E+00
+ Courant # of grid   2 on level  3 is   0.893E+00
+ Courant # of grid   4 on level  2 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+time t =  0.29038E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.827E+00
+ Courant # of grid   5 on level  2 is   0.840E+00
+ Courant # of grid   3 on level  3 is   0.845E+00
+ Courant # of grid   3 on level  3 is   0.844E+00
+ Courant # of grid   3 on level  3 is   0.843E+00
+ Courant # of grid   3 on level  3 is   0.842E+00
+ Courant # of grid   5 on level  2 is   0.835E+00
+ Courant # of grid   3 on level  3 is   0.842E+00
+ Courant # of grid   3 on level  3 is   0.841E+00
+ Courant # of grid   3 on level  3 is   0.840E+00
+ Courant # of grid   3 on level  3 is   0.839E+00
+time t =  0.30000E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         296 to          327) at level    3
+          at level    2 projected coords ilo:hi:(        73        82)
+ enlarged (by 1) fine grid from ilo:hi:         295         328
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           73          82
+marking nested region from:         73        82
+1111111111
+ Courant # of grid   1 on level  1 is   0.879E+00
+ Courant # of grid   5 on level  2 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.893E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   5 on level  2 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+time t =  0.31025E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.878E+00
+ Courant # of grid   4 on level  2 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.892E+00
+ Courant # of grid   3 on level  3 is   0.892E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   4 on level  2 is   0.879E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+time t =  0.32057E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         300 to          331) at level    3
+          at level    2 projected coords ilo:hi:(        74        83)
+ enlarged (by 1) fine grid from ilo:hi:         299         332
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           74          83
+marking nested region from:         74        83
+1111111111
+ Courant # of grid   1 on level  1 is   0.872E+00
+ Courant # of grid   4 on level  2 is   0.887E+00
+ Courant # of grid   2 on level  3 is   0.893E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   4 on level  2 is   0.881E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+time t =  0.33098E+00,  total mass =  0.500000000000000E+00  diff = -0.5551E-15
+ Courant # of grid   1 on level  1 is   0.866E+00
+ Courant # of grid   5 on level  2 is   0.882E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   5 on level  2 is   0.882E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+time t =  0.34148E+00,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         304 to          339) at level    3
+          at level    2 projected coords ilo:hi:(        75        85)
+ enlarged (by 1) fine grid from ilo:hi:         303         340
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           75          85
+marking nested region from:         75        85
+11111111111
+ Courant # of grid   1 on level  1 is   0.705E+00
+ Courant # of grid   5 on level  2 is   0.711E+00
+ Courant # of grid   2 on level  3 is   0.717E+00
+ Courant # of grid   2 on level  3 is   0.716E+00
+ Courant # of grid   2 on level  3 is   0.715E+00
+ Courant # of grid   2 on level  3 is   0.714E+00
+ Courant # of grid   5 on level  2 is   0.707E+00
+ Courant # of grid   2 on level  3 is   0.714E+00
+ Courant # of grid   2 on level  3 is   0.713E+00
+ Courant # of grid   2 on level  3 is   0.712E+00
+ Courant # of grid   2 on level  3 is   0.711E+00
+time t =  0.35000E+00,  total mass =  0.500000000000000E+00  diff = -0.2220E-15
+ Courant # of grid   1 on level  1 is   0.873E+00
+ Courant # of grid   4 on level  2 is   0.882E+00
+ Courant # of grid   3 on level  3 is   0.893E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   4 on level  2 is   0.882E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+time t =  0.36070E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         312 to          343) at level    3
+          at level    2 projected coords ilo:hi:(        77        86)
+ enlarged (by 1) fine grid from ilo:hi:         311         344
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           77          86
+marking nested region from:         77        86
+1111111111
+ Courant # of grid   1 on level  1 is   0.866E+00
+ Courant # of grid   4 on level  2 is   0.883E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   4 on level  2 is   0.876E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+ Courant # of grid   2 on level  3 is   0.884E+00
+time t =  0.37148E+00,  total mass =  0.500000000000000E+00  diff = -0.4996E-15
+ Courant # of grid   1 on level  1 is   0.876E+00
+ Courant # of grid   5 on level  2 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   5 on level  2 is   0.878E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.884E+00
+ Courant # of grid   3 on level  3 is   0.882E+00
+time t =  0.38237E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         316 to          347) at level    3
+          at level    2 projected coords ilo:hi:(        78        87)
+ enlarged (by 1) fine grid from ilo:hi:         315         348
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           78          87
+marking nested region from:         78        87
+1111111111
+ Courant # of grid   1 on level  1 is   0.871E+00
+ Courant # of grid   5 on level  2 is   0.879E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   5 on level  2 is   0.880E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+ Courant # of grid   2 on level  3 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.883E+00
+time t =  0.39337E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+ Courant # of grid   1 on level  1 is   0.516E+00
+ Courant # of grid   4 on level  2 is   0.526E+00
+ Courant # of grid   3 on level  3 is   0.531E+00
+ Courant # of grid   3 on level  3 is   0.531E+00
+ Courant # of grid   3 on level  3 is   0.530E+00
+ Courant # of grid   3 on level  3 is   0.530E+00
+ Courant # of grid   4 on level  2 is   0.524E+00
+ Courant # of grid   3 on level  3 is   0.530E+00
+ Courant # of grid   3 on level  3 is   0.529E+00
+ Courant # of grid   3 on level  3 is   0.528E+00
+ Courant # of grid   3 on level  3 is   0.528E+00
+time t =  0.40000E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         320 to          351) at level    3
+          at level    2 projected coords ilo:hi:(        79        88)
+ enlarged (by 1) fine grid from ilo:hi:         319         352
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           79          88
+marking nested region from:         79        88
+1111111111
+ Courant # of grid   1 on level  1 is   0.874E+00
+ Courant # of grid   4 on level  2 is   0.883E+00
+ Courant # of grid   2 on level  3 is   0.894E+00
+ Courant # of grid   2 on level  3 is   0.893E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   4 on level  2 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+time t =  0.41123E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+ Courant # of grid   1 on level  1 is   0.874E+00
+ Courant # of grid   5 on level  2 is   0.883E+00
+ Courant # of grid   3 on level  3 is   0.893E+00
+ Courant # of grid   3 on level  3 is   0.892E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   5 on level  2 is   0.875E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+time t =  0.42255E+00,  total mass =  0.500000000000000E+00  diff = -0.4441E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         324 to          355) at level    3
+          at level    2 projected coords ilo:hi:(        80        89)
+ enlarged (by 1) fine grid from ilo:hi:         323         356
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           80          89
+marking nested region from:         80        89
+1111111111
+ Courant # of grid   1 on level  1 is   0.867E+00
+ Courant # of grid   5 on level  2 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+ Courant # of grid   5 on level  2 is   0.876E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+ Courant # of grid   2 on level  3 is   0.883E+00
+ Courant # of grid   2 on level  3 is   0.883E+00
+time t =  0.43396E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+ Courant # of grid   1 on level  1 is   0.873E+00
+ Courant # of grid   4 on level  2 is   0.878E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   4 on level  2 is   0.879E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.884E+00
+ Courant # of grid   3 on level  3 is   0.882E+00
+time t =  0.44549E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         332 to          363) at level    3
+          at level    2 projected coords ilo:hi:(        82        91)
+ enlarged (by 1) fine grid from ilo:hi:         331         364
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           82          91
+marking nested region from:         82        91
+1111111111
+ Courant # of grid   1 on level  1 is   0.338E+00
+ Courant # of grid   4 on level  2 is   0.341E+00
+ Courant # of grid   2 on level  3 is   0.345E+00
+ Courant # of grid   2 on level  3 is   0.345E+00
+ Courant # of grid   2 on level  3 is   0.344E+00
+ Courant # of grid   2 on level  3 is   0.344E+00
+ Courant # of grid   4 on level  2 is   0.340E+00
+ Courant # of grid   2 on level  3 is   0.344E+00
+ Courant # of grid   2 on level  3 is   0.344E+00
+ Courant # of grid   2 on level  3 is   0.343E+00
+ Courant # of grid   2 on level  3 is   0.343E+00
+time t =  0.45000E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.876E+00
+ Courant # of grid   5 on level  2 is   0.885E+00
+ Courant # of grid   3 on level  3 is   0.895E+00
+ Courant # of grid   3 on level  3 is   0.895E+00
+ Courant # of grid   3 on level  3 is   0.893E+00
+ Courant # of grid   3 on level  3 is   0.893E+00
+ Courant # of grid   5 on level  2 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.892E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.890E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+time t =  0.46177E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         336 to          367) at level    3
+          at level    2 projected coords ilo:hi:(        83        92)
+ enlarged (by 1) fine grid from ilo:hi:         335         368
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           83          92
+marking nested region from:         83        92
+1111111111
+ Courant # of grid   1 on level  1 is   0.866E+00
+ Courant # of grid   5 on level  2 is   0.883E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.892E+00
+ Courant # of grid   2 on level  3 is   0.890E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   5 on level  2 is   0.876E+00
+ Courant # of grid   2 on level  3 is   0.888E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+time t =  0.47361E+00,  total mass =  0.500000000000000E+00  diff = -0.3331E-15
+ Courant # of grid   1 on level  1 is   0.876E+00
+ Courant # of grid   4 on level  2 is   0.884E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.891E+00
+ Courant # of grid   3 on level  3 is   0.889E+00
+ Courant # of grid   3 on level  3 is   0.888E+00
+ Courant # of grid   4 on level  2 is   0.877E+00
+ Courant # of grid   3 on level  3 is   0.887E+00
+ Courant # of grid   3 on level  3 is   0.886E+00
+ Courant # of grid   3 on level  3 is   0.884E+00
+ Courant # of grid   3 on level  3 is   0.884E+00
+time t =  0.48556E+00,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+NESTCK1 testing grid     2 base level     2
+ new grid from ilo:hi: (         340 to          371) at level    3
+          at level    2 projected coords ilo:hi:(        84        93)
+ enlarged (by 1) fine grid from ilo:hi:         339         372
+ refinement factors to base grid of            4
+coarsened to lbase, grid from iclo:hi:           84          93
+marking nested region from:         84        93
+1111111111
+ Courant # of grid   1 on level  1 is   0.870E+00
+ Courant # of grid   4 on level  2 is   0.883E+00
+ Courant # of grid   2 on level  3 is   0.891E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.889E+00
+ Courant # of grid   2 on level  3 is   0.887E+00
+ Courant # of grid   4 on level  2 is   0.879E+00
+ Courant # of grid   2 on level  3 is   0.886E+00
+ Courant # of grid   2 on level  3 is   0.885E+00
+ Courant # of grid   2 on level  3 is   0.884E+00
+ Courant # of grid   2 on level  3 is   0.883E+00
+time t =  0.49762E+00,  total mass =  0.500000000000000E+00  diff = -0.1110E-15
+ Courant # of grid   1 on level  1 is   0.169E+00
+ Courant # of grid   5 on level  2 is   0.172E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   5 on level  2 is   0.172E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+ Courant # of grid   3 on level  3 is   0.174E+00
+time t =  0.50000E+00,  total mass =  0.500000000000000E+00  diff = -0.3886E-15
+
+
+for level   1 average num. grids =       1.00 over          1 regridding steps
+for level   1  current num. grids =       1
+for level   2 average num. grids =       0.73 over         26 regridding steps
+for level   2  current num. grids =       1
+for level   3 average num. grids =       0.81 over         43 regridding steps
+for level   3  current num. grids =       1
+
+
+alloc array statistics:
+    current alloc usage =          236
+    maximum alloc usage =          340
+required alloc memsize >=          349
+
+number of cells advanced for time integration =         13772.000000
+   # cells advanced on level    1 =              3060.00
+   # cells advanced on level    2 =              1528.00
+   # cells advanced on level    3 =              9184.00
+number of cells advanced for error estimation =             0.000000
+
+ percentage of cells advanced in time  =     100.00
+ maximum Courant number seen =       0.90
+
+
+ ------  end of AMRCLAW integration --------  

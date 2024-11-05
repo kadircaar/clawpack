@@ -1,0 +1,24 @@
+
+============================== Timing Data ==============================
+
+Integration Time (stepgrid + BC + overhead)
+Level           Wall Time (seconds)    CPU Time (seconds)   Total Cell Updates
+  1                     0.007                  0.008            0.120E+05
+  2                     0.135                  0.124            0.142E+06
+  3                     0.379                  0.379            0.258E+06
+total                   0.521                  0.511            0.412E+06
+
+All levels:
+stepgrid                0.433                  0.430    
+BC/ghost cells          0.047                  0.038
+Regridding              0.046                  0.049  
+Output (valout)         0.012                  0.011  
+
+Total time:             0.641                  0.620  
+Using  1 thread(s)
+
+Note: The CPU times are summed over all threads.
+      Total time includes more than the subroutines listed above
+
+=========================================================================
+

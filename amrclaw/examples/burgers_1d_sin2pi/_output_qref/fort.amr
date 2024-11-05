@@ -1,0 +1,52 @@
+  max threads set to            1
+
+ amrclaw parameters:
+
+ error tol            -0.10000E+01
+ spatial error tol     0.50000E-01
+ order of integrator             1
+ error checking interval         2
+ buffer zone size                3
+ nghost                          2
+ volume ratio cutoff   0.70000E+00
+ max. refinement level           1
+ user sub. calling times 999999999
+ cfl # (if var. delt)  0.90000E+00
+
+ xupper(upper corner)  0.10000E+01
+ xlower(lower corner)  0.00000E+00
+ nx = no. cells in x dir.      500
+ refinement ratios       
+ refinement ratios:           1
+ no. auxiliary vars.             0
+       var 
+ the subtree is
+ +---------------------------------------------------------------------------+
+ ! grid no:     2                                                            !
+ ! nestlevel=  1, time mult=    0.000000000000000E+00, level ptr =     1     !
+ ! storage locs =        255          0  bndry locs =          0          0  !
+ ! edges of line:                                                     !
+ !           (   0.5000000,    1.0000000)        !
+ ! integer index space :                                                     !
+ !                   (     250,      499)                !
+ ! hrow=      0.00200000000, hcol=      0.00000000000, ktime=
+ +---------------------------------------------------------------------------+
+ +---------------------------------------------------------------------------+
+ ! grid no:     1                                                            !
+ ! nestlevel=  1, time mult=    0.000000000000000E+00, level ptr =     0     !
+ ! storage locs =          1          0  bndry locs =          0          0  !
+ ! edges of line:                                                     !
+ !           (   0.0000000,    0.5000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,      249)                !
+ ! hrow=      0.00200000000, hcol=      0.00000000000, ktime=
+ +---------------------------------------------------------------------------+
+
+    2 grids at level     1 go from         0 to      499
+
+   original total mass ...
+time t =  0.00000E+00,  total mass =  0.500000000000000E+00  diff =  0.0000E+00
+Line 107  0.0000000000000000E+00
+ trying to interpolate from previous time values 
+ for a patch with corners ilo,ihi,jlo,jhi:
+         248       249         1         1
