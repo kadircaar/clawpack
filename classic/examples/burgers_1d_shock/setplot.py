@@ -43,7 +43,7 @@ def setplot(plotdata):
         from pylab import plot, legend
         x = linspace(2,4,500000)
         t = current_data.t
-        plot([1.8,2+t,2+t, 4.2], [1, 1, 0, 0],label='reference solution')
+        plot([1.8,2+0.5*t,2+0.5*t, 4.2], [1, 1, 0, 0],label='reference solution')
         legend()
     plotaxes.afteraxes = addtrue
     
